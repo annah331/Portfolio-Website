@@ -1,6 +1,6 @@
 {
-  "name": "Scrim-s01u95d",
-  "description": "https://scrimba.com/build-and-deploy-your-portfolio-c012/~0i",
+  "name": "Portfolio-Website",
+  "description": "A portfolio website for Annah Molekoa, a full-stack developer.",
   "scripts": {
     "start": "vite",
     "dev": "vite",
