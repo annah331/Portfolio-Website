@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Annah Molekoa | Full-Stack Developer</title>
+    <title>Annah Molekoa - Full-Stack Developer Portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
@@ -14,19 +14,16 @@
       integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
       crossorigin="anonymous"
     />
-
-    <!-- Update these with your own fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
       <div class="logo">
-        <img src="img/annah-logo.png" alt="" />
+        <img src="img/annah-logo.png.png" alt="Annah Logo" />
       </div>
       <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
@@ -49,38 +46,13 @@
       </nav>
     </header>
 
-    <section class="intro">
-      <h1 class="section__title section__title--intro">
-        <strong>Recipe Finder App</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--intro">
-        A web app to quickly find and save recipes using JavaScript and APIs
-      </p>
-      <img src="img/portfolio-01.jpg" alt="" class="intro__img" />
+    <!-- Dynamic Project Content -->
+    <section class="intro" id="project-content">
+      <!-- JS will insert title, subtitle, image, and description here -->
     </section>
-
-    <div class="portfolio-item-individual">
-      <p>
-        This project lets users search for recipes by ingredient or meal type.
-        It uses the Edamam API to fetch data and displays results with a
-        responsive interface.
-      </p>
-      <img src="img/portfolio-details.jpg" alt="" />
-      <p>
-        Built with HTML, CSS, JavaScript, and a touch of localStorage to save
-        favorite recipes. The focus was on clean design, fast load times, and
-        easy navigation.
-      </p>
-      <p>
-        Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae
-        eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius
-        earum?
-      </p>
-    </div>
 
     <!-- Footer -->
     <footer class="footer">
-      <!-- replace with your own email address -->
       <a href="mailto:annah.molekoa10@gmail.com" class="footer__link"
         >annah.molekoa10@gmail.com</a
       >
@@ -104,7 +76,11 @@
           </a>
         </li>
         <li class="social-list__item">
-          <a class="social-list__link" href="https://github.com/annah331/">
+          <a
+            class="social-list__link"
+            href="https://github.com/annah331/"
+            target="_blank"
+          >
             <i class="fab fa-github"></i>
           </a>
         </li>
@@ -112,5 +88,6 @@
     </footer>
 
     <script src="js/index.js"></script>
+    <script src="js/portfolio-item.js"></script>
   </body>
 </html>
