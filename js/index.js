@@ -1,3 +1,4 @@
+console.log('URL PARAMS:', window.location.search);
 // Navigation toggle
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelectorAll('.nav__link');
@@ -104,15 +105,18 @@ const projects = {
   },
 };
 
+console.log('URL PARAMS:', window.location.search);
+
 // Read project id from URL
-const params = new URLSearchParams(window.location.search);
-const id = params.get('id');
+document.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get('id');
 
-const projectContent = document.getElementById('project-content');
+  const projectContent = document.getElementById('project-content');
 
-if (projects[Number(id)]) {
-  const project = projects[Number(id)];
-  projectContent.innerHTML = `
+  if (projects[Number(id)]) {
+    const project = projects[Number(id)];
+    projectContent.innerHTML = `
     <h1 class="section__title section__title--intro"><strong>${project.title}</strong></h1>
     <p class="section__subtitle section__subtitle--intro">${project.subtitle}</p>
     <img src="${project.img}" alt="${project.title}" class="intro__img" />
@@ -124,6 +128,9 @@ if (projects[Number(id)]) {
       <a href="${project.netlify}" target="_blank" class="btn">View on Netlify</a>
     </p>
   `;
-} else {
-  projectContent.innerHTML = '<p>Project not found.</p>';
-}
+  } else {
+    projectContent.innerHTML = '<p>Project not found.</p>';
+  }
+});
+
+console.log('URL PARAMS:', window.location.search);
