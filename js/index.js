@@ -17,7 +17,7 @@ const projects = {
   1: {
     title: 'Survey Form',
     subtitle: 'Interactive survey form design',
-    img: 'img/portfolio-01.jpg',
+    img: './img/portfolio-01.jpg',
     description: `
       <p>This project lets users submit survey responses with validation and 
       a clean design. Built with HTML, CSS, and JavaScript.</p>
@@ -28,7 +28,7 @@ const projects = {
   2: {
     title: 'Counter app',
     subtitle: 'Clean and responsive application',
-    img: 'img/portfolio-02.jpg',
+    img: './img/portfolio-02.jpg',
     description: `
       <p>Designed a simple counter application with increment, decrement, and reset functionality.
       Built with HTML, CSS, and JavaScript.</p>
@@ -39,7 +39,7 @@ const projects = {
   3: {
     title: 'Technical Documentation Page',
     subtitle: 'Technical documentation page with clean layout',
-    img: 'img/portfolio-03.jpg',
+    img: './img/portfolio-03.jpg',
     description: `
       <p>Created a technical documentation page with a clean, responsive layout.
       Built with HTML and CSS.</p>
@@ -50,7 +50,7 @@ const projects = {
   4: {
     title: 'Dashboard',
     subtitle: 'Dynamic data dashboard',
-    img: 'img/portfolio-04.jpg',
+    img: './img/portfolio-04.jpg',
     description: `
       <p>A dashboard interface showing key metrics with interactive charts,
       built with HTML, CSS, and JavaScript.</p>
@@ -61,7 +61,7 @@ const projects = {
   5: {
     title: 'Tenzies Game',
     subtitle: 'Fun dice game built in JavaScript',
-    img: 'img/portfolio-05.jpg',
+    img: './img/portfolio-05.jpg',
     description: `
       <p>Recreated the classic Tenzies game with dice-rolling logic, state
       management, and a clean, responsive design.</p>
@@ -72,7 +72,7 @@ const projects = {
   6: {
     title: 'Assembly Endgame',
     subtitle: 'Small web game built with JavaScript',
-    img: 'img/portfolio-06.jpg',
+    img: './img/portfolio-06.jpg',
     description: `
       <p>Built a simple interactive web game inspired by classic puzzles,
       focusing on user interactions and animations.</p>
@@ -83,7 +83,7 @@ const projects = {
   7: {
     title: 'Product Card',
     subtitle: 'Interactive product display',
-    img: 'img/portfolio-07.jpg',
+    img: './img/portfolio-07.jpg',
     description: `
       <p>Showcases a product with price, image, and description. Fully responsive
       design and hover interactions built with HTML, CSS, and JS.</p>
@@ -94,7 +94,7 @@ const projects = {
   8: {
     title: 'Cloudflare OpenAI API (Demo)',
     subtitle: 'Integration with OpenAI via Cloudflare Workers',
-    img: 'img/portfolio-08.jpg',
+    img: './img/portfolio-08.jpg',
     description: `
       <p>Attempted to connect a frontend web app to OpenAI using Cloudflare Workers.
       Demo currently shows frontend interface only due to API cost limitations.</p>
