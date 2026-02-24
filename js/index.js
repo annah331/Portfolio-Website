@@ -110,8 +110,8 @@ const id = params.get('id');
 
 const projectContent = document.getElementById('project-content');
 
-if (projects[id]) {
-  const project = projects[id];
+if (projects[Number(id)]) {
+  const project = projects[Number(id)];
   projectContent.innerHTML = `
     <h1 class="section__title section__title--intro"><strong>${project.title}</strong></h1>
     <p class="section__subtitle section__subtitle--intro">${project.subtitle}</p>
