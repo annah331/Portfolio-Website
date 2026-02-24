@@ -22,30 +22,30 @@ const projects = {
       <p>This project lets users submit survey responses with validation and 
       a clean design. Built with HTML, CSS, and JavaScript.</p>
     `,
-    github: 'https://github.com/annah331/survey-form',
-    netlify: 'https://your-netlify-link.netlify.app',
+    github: 'https://github.com/annah331/digital-wellness-survey',
+    netlify: 'https://digital-wellness-survey05.netlify.app/',
   },
   2: {
-    title: 'Landing Page',
-    subtitle: 'Clean and responsive landing page',
+    title: 'Counter app',
+    subtitle: 'Clean and responsive application',
     img: 'img/portfolio-02.jpg',
     description: `
-      <p>Designed to highlight a product/service, with sections for features,
-      testimonials, and call-to-action buttons. Built with HTML & CSS.</p>
+      <p>Designed a simple counter application with increment, decrement, and reset functionality.
+      Built with HTML, CSS, and JavaScript.</p>
     `,
-    github: 'https://github.com/annah331/landing-page',
-    netlify: 'https://your-netlify-link.netlify.app',
+    github: 'https://github.com/annah331/Counter-app',
+    netlify: 'https://counter-app05.netlify.app',
   },
   3: {
-    title: 'Chrome Extension',
-    subtitle: 'A small productivity tool inside your browser',
+    title: 'Technical Documentation Page',
+    subtitle: 'Technical documentation page with clean layout',
     img: 'img/portfolio-03.jpg',
     description: `
-      <p>Developed a Chrome extension to enhance workflow, including UI and
-      background scripts. Uses JavaScript and manifest.json setup.</p>
+      <p>Created a technical documentation page with a clean, responsive layout.
+      Built with HTML and CSS.</p>
     `,
-    github: 'https://github.com/annah331/Chrome-extension',
-    netlify: 'https://chrome-extension0510.netlify.app/',
+    github: 'https://github.com/annah331/html-technical-doumentation-page',
+    netlify: 'https://html-technical-documentation-page05.netlify.app/',
   },
   4: {
     title: 'Dashboard',
