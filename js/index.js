@@ -18,7 +18,7 @@ const projects = {
   1: {
     title: 'Survey Form',
     subtitle: 'Interactive survey form design',
-    img: './img/portfolio-01.jpg',
+    img: './img/survey-form-snapshot.png',
     description: `
       <p>This project lets users submit survey responses with validation and 
       a clean design. Built with HTML, CSS, and JavaScript.</p>
@@ -29,7 +29,7 @@ const projects = {
   2: {
     title: 'Counter app',
     subtitle: 'Clean and responsive application',
-    img: './img/portfolio-02.jpg',
+    img: './img/counter-app-snapshot.png',
     description: `
       <p>Designed a simple counter application with increment, decrement, and reset functionality.
       Built with HTML, CSS, and JavaScript.</p>
@@ -40,7 +40,7 @@ const projects = {
   3: {
     title: 'Technical Documentation Page',
     subtitle: 'Technical documentation page with clean layout',
-    img: './img/portfolio-03.jpg',
+    img: './img/technical-documentation-snapshot.png',
     description: `
       <p>Created a technical documentation page with a clean, responsive layout.
       Built with HTML and CSS.</p>
@@ -51,7 +51,7 @@ const projects = {
   4: {
     title: 'Dashboard',
     subtitle: 'Dynamic data dashboard',
-    img: './img/portfolio-04.jpg',
+    img: './img/dashboard-snapshot.png',
     description: `
       <p>A dashboard interface showing key metrics with interactive charts,
       built with HTML, CSS, and JavaScript.</p>
@@ -84,7 +84,7 @@ const projects = {
   7: {
     title: 'Product Card',
     subtitle: 'Interactive product display',
-    img: './img/portfolio-07.jpg',
+    img: './img/product-card-snapshot.png',
     description: `
       <p>Showcases a product with price, image, and description. Fully responsive
       design and hover interactions built with HTML, CSS, and JS.</p>
@@ -95,7 +95,7 @@ const projects = {
   8: {
     title: 'Cloudflare OpenAI API (Demo)',
     subtitle: 'Integration with OpenAI via Cloudflare Workers',
-    img: './img/portfolio-08.jpg',
+    img: './img/cloudflare-openai-api-snapshot.png',
     description: `
       <p>Attempted to connect a frontend web app to OpenAI using Cloudflare Workers.
       Demo currently shows frontend interface only due to API cost limitations.</p>
