@@ -45,7 +45,7 @@ const projects = {
       <p>Created a technical documentation page with a clean, responsive layout.
       Built with HTML and CSS.</p>
     `,
-    github: 'https://github.com/annah331/html-technical-doumentation-page',
+    github: 'https://github.com/annah331/html-technical-documentation-page',
     netlify: 'https://html-technical-documentation-page05.netlify.app/',
   },
   4: {
