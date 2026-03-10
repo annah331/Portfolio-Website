@@ -1,65 +1,59 @@
 # Personal Portfolio Website
 
 ## 📌 Overview
-This is my personal developer portfolio showcasing selected frontend and full-stack projects.
+This is my personal developer portfolio showcasing selected **frontend projects** built with **React, Next.js, and modern web technologies**.  
 
-The goal of this portfolio is to present clean, deployed projects with clear documentation and structured code.
+The goal of this portfolio is to present **clean, responsive, and deployed projects** with clear documentation and well-structured code.
 
 ---
 
 ## 🚀 Live Website
-🔗 https://annah-portfolio-website.netlify.app/
+🔗 [annah-portfolio-website.netlify.app](https://annah-portfolio-website.netlify.app/)
 
 ---
 
-## 🛠️ Tech Stack
-- HTML5
-- CSS3
-- JavaScript
-- Netlify (Deployment)
+## 🛠️ Tech Stack 
+- JavaScript (ES6+)  
+- HTML5   
+- CSS3    
+- Netlify (Deployment)  
 
 ---
 
 ## ✨ Features
-- Responsive design
-- Dynamic project modal system
-- Clean UI and consistent design system
-- Organized project structure
-- Deployed live demos for every project
+- Responsive design across desktop and mobile  
+- Interactive, component-based UI  
+- Clean and consistent design system  
+- Structured and maintainable project architecture  
+- Live deployed demos for every project  
 
 ---
 
 ## 📂 Highlighted Projects
-- Survey Form
-- Counter App
-- Technical Documentation Page
-- Interactive Dashboard
-- Tenzies Game
-- Assembly Endgame
-- Product Card Component
-- Cloudflare + OpenAI API (Frontend Demo)
+- **Survey Form** – Interactive form with dynamic UI feedback  
+- **Counter App** – React state management example  
+- **Technical Documentation Page** – Clean layout for content-heavy pages  
+- **Interactive Dashboard** – Javascript dashboard   
+- **Tenzies Game** – React game demonstrating hooks and state  
+- **Assembly Endgame** – React-based assembly-style interactive game  
+- **Product Card Component** – Responsive UI component built with Tailwind CSS  
+- **Cloudflare + OpenAI API (Frontend Demo)** – Frontend integration of external services  
 
 ---
 
 ## 🎯 Purpose
-This portfolio was built to demonstrate:
+This portfolio demonstrates:  
 
-- Strong frontend fundamentals
-- Clean code structure
-- Responsive layout skills
-- JavaScript interactivity
-- Deployment and debugging experience
+- Strong **frontend fundamentals**  
+- **React & Next.js** development experience  
+- Clean and maintainable **component-based architecture**  
+- Responsive layouts and **UI design skills**  
+- Deployment experience and debugging in live environments  
 
 ---
 
 ## 🔧 Future Improvements
-- Add backend-integrated projects
-- Improve animations and transitions
-- Add performance optimizations
-- Expand project case studies
-
----
-
-## 👩🏽‍💻 Author
-Annah Molekoa  
-Junior Full-Stack Developer
+- Enhance **animations and transitions**  
+- Add **performance optimizations**  
+- Expand **project case studies** with detailed UI/UX explanations  
+- Integrate additional **frontend-focused projects**  
