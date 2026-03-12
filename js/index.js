@@ -24,18 +24,19 @@ const projects = {
       a clean design. Built with HTML, CSS, and JavaScript.</p>
     `,
     github: 'https://github.com/annah331/digital-wellness-survey',
-    netlify: 'https://digital-wellness-survey05.netlify.app/',
+    live: 'https://digital-wellness-survey05.netlify.app/',
   },
   2: {
-    title: 'Counter app',
-    subtitle: 'Clean and responsive application',
-    img: './img/counter-app-snapshot.png',
+    title: 'Personal Tax Calculator',
+    subtitle: 'Calculate your income tax easily',
+    img: './img/personal-tax-calculator-snapshot.png',
     description: `
-      <p>Designed a simple counter application with increment, decrement, and reset functionality.
-      Built with HTML, CSS, and JavaScript.</p>
+      <p>A Next.js + TypeScript + Tailwind CSS app that calculates your personal 
+      tax based on South African tax brackets. Shows tax owed, net income, and a 
+      pie chart breakdown for easy visualization.</p>
     `,
-    github: 'https://github.com/annah331/Counter-app',
-    netlify: 'https://counter-app05.netlify.app',
+    github: 'https://github.com/annah331/personal-tax-calculator',
+    live: 'https://personal-tax-calculator-alpha.vercel.app',
   },
   3: {
     title: 'Technical Documentation Page',
@@ -46,7 +47,7 @@ const projects = {
       Built with HTML and CSS.</p>
     `,
     github: 'https://github.com/annah331/html-technical-documentation-page',
-    netlify: 'https://html-technical-documentation-page05.netlify.app/',
+    live: 'https://html-technical-documentation-page05.netlify.app/',
   },
   4: {
     title: 'Dashboard',
@@ -57,7 +58,7 @@ const projects = {
       built with HTML, CSS, and JavaScript.</p>
     `,
     github: 'https://github.com/annah331/dashboard',
-    netlify: 'https://dashboard0510.netlify.app/',
+    live: 'https://dashboard0510.netlify.app/',
   },
   5: {
     title: 'Tenzies Game',
@@ -68,7 +69,7 @@ const projects = {
       management, and a clean, responsive design.</p>
     `,
     github: 'https://github.com/annah331/Tenzies-Game-',
-    netlify: 'https://tenzies-game05.netlify.app/',
+    live: 'https://tenzies-game05.netlify.app/',
   },
   6: {
     title: 'Assembly Endgame',
@@ -79,18 +80,19 @@ const projects = {
       focusing on user interactions and animations.</p>
     `,
     github: 'https://github.com/annah331/Assembly-Endgame',
-    netlify: 'https://assembly-endgame05.netlify.app/',
+    live: 'https://assembly-endgame05.netlify.app/',
   },
   7: {
-    title: 'Product Card',
-    subtitle: 'Interactive product display',
-    img: './img/product-card-snapshot.png',
+    title: 'Personal Expense Tracker',
+    subtitle: 'Track your income and expenses',
+    img: './img/FinTracker-snapshot.png',
     description: `
-      <p>Showcases a product with price, image, and description. Fully responsive
-      design and hover interactions built with HTML, CSS, and JS.</p>
+      <p>A Next.js + TypeScript + Tailwind CSS app to manage personal finances. 
+      Features a dashboard with summary cards, expense charts, transaction table, 
+      and interactive sidebar navigation.</p>
     `,
-    github: 'https://github.com/annah331/product-card',
-    netlify: 'https://product-card05.netlify.app/',
+    github: 'https://github.com/annah331/Personal-Expense-Tracker',
+    live: 'https://personal-expense-tracker-rho-five.vercel.app',
   },
   8: {
     title: 'Cloudflare OpenAI API (Demo)',
@@ -101,7 +103,7 @@ const projects = {
       Demo currently shows frontend interface only due to API cost limitations.</p>
     `,
     github: 'https://github.com/annah331/Cloudflare-openai-api',
-    netlify: 'https://cloudflare-openai-api.netlify.app/',
+    live: 'https://cloudflare-openai-api.netlify.app/',
   },
 };
 
@@ -125,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
     <p>
       <a href="${project.github}" target="_blank" class="btn">View on GitHub</a>
-      <a href="${project.netlify}" target="_blank" class="btn">View on Netlify</a>
+      <a href="${project.live}" target="_blank" class="btn">View on live</a>
     </p>
   `;
   } else {
