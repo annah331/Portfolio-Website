@@ -31,12 +31,12 @@ The goal of this portfolio is to present **clean, responsive, and deployed proje
 
 ## 📂 Highlighted Projects
 - **Survey Form** – Interactive form with dynamic UI feedback  
-- **Counter App** – React state management example  
+- **Tax Calculator** – Interactive application built with JavaScript that calculates estimated tax from user input with real-time results and a responsive Tailwind CSS interface  
 - **Technical Documentation Page** – Clean layout for content-heavy pages  
 - **Interactive Dashboard** – Javascript dashboard   
 - **Tenzies Game** – React game demonstrating hooks and state  
 - **Assembly Endgame** – React-based assembly-style interactive game  
-- **Product Card Component** – Responsive UI component built with Tailwind CSS  
+- **Personal Expense Tracker** – Web application built with React and JavaScript that allows users to record and track expenses through a responsive interface styled with Tailwind CSS  
 - **Cloudflare + OpenAI API (Frontend Demo)** – Frontend integration of external services  
 
 ---
