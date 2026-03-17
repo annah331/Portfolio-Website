@@ -1,6 +1,6 @@
 {
   "name": "Portfolio-Website",
-  "description": "A portfolio website for Annah Molekoa, a full-stack developer.",
+  "description": "A portfolio website for Annah Molekoa, a frontend developer.",
   "scripts": {
     "start": "vite",
     "dev": "vite",
