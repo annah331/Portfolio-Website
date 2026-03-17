@@ -31,7 +31,7 @@ The goal of this portfolio is to present **clean, responsive, and deployed proje
 
 ## 📂 Highlighted Projects
 - **Survey Form** – Interactive form with dynamic UI feedback  
-- **Tax Calculator** – Interactive application built with Next.js  that calculates estimated tax from user input with real-time results and a responsive Tailwind CSS interface  
+- **Tax Calculator** – Interactive application built with Next.js and React that calculates estimated tax from user input with real-time results and a responsive Tailwind CSS interface  
 - **Technical Documentation Page** – Clean layout for content-heavy pages  
 - **Interactive Dashboard** – Javascript dashboard   
 - **Tenzies Game** – React game demonstrating hooks and state  
