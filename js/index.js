@@ -1,3 +1,12 @@
+import surveyFormImg from './src/survey-form-snapshot.png';
+import taxCalculatorImg from './src/personal-tax-calculator-snapshot.png';
+import techDocImg from './src/technical-documentation-snapshot.png';
+import dashboardImg from './src/dashboard-snapshot.png';
+import tenziesImg from './src/portfolio-05.jpg';
+import assemblyImg from './src/portfolio-06.jpg';
+import finTrackerImg from './src/FinTracker-snapshot.png';
+import cloudflareImg from './src/cloudflare-openai-api-snapshot.png';
+
 console.log('URL PARAMS:', window.location.search);
 // Navigation toggle
 const navToggle = document.querySelector('.nav-toggle');
@@ -18,7 +27,7 @@ const projects = {
   1: {
     title: 'Survey Form',
     subtitle: 'Interactive survey form design',
-    img: './img/survey-form-snapshot.png',
+    img: surveyFormImg,
     description: `
       <p>This project lets users submit survey responses with validation and 
       a clean design. Built with HTML, CSS, and JavaScript.</p>
@@ -29,7 +38,7 @@ const projects = {
   2: {
     title: 'Personal Tax Calculator',
     subtitle: 'Calculate your income tax easily',
-    img: './img/personal-tax-calculator-snapshot.png',
+    img: taxCalculatorImg,
     description: `
       <p>A Next.js + TypeScript + Tailwind CSS app that calculates your personal 
       tax based on South African tax brackets. Shows tax owed, net income, and a 
@@ -41,7 +50,7 @@ const projects = {
   3: {
     title: 'Technical Documentation Page',
     subtitle: 'Technical documentation page with clean layout',
-    img: './img/technical-documentation-snapshot.png',
+    img: techDocImg,
     description: `
       <p>Created a technical documentation page with a clean, responsive layout.
       Built with HTML and CSS.</p>
@@ -52,7 +61,7 @@ const projects = {
   4: {
     title: 'Dashboard',
     subtitle: 'Dynamic data dashboard',
-    img: './img/dashboard-snapshot.png',
+    img: dashboardImg,
     description: `
       <p>A dashboard interface showing key metrics with interactive charts,
       built with HTML, CSS, and JavaScript.</p>
@@ -63,7 +72,7 @@ const projects = {
   5: {
     title: 'Tenzies Game',
     subtitle: 'Fun dice game built in JavaScript',
-    img: './img/portfolio-05.jpg',
+    img: tenziesImg,
     description: `
       <p>Recreated the classic Tenzies game with dice-rolling logic, state
       management, and a clean, responsive design.</p>
@@ -74,7 +83,7 @@ const projects = {
   6: {
     title: 'Assembly Endgame',
     subtitle: 'Small web game built with JavaScript',
-    img: './img/portfolio-06.jpg',
+    img: assemblyImg,
     description: `
       <p>Built a simple interactive web game inspired by classic puzzles,
       focusing on user interactions and animations.</p>
@@ -85,7 +94,7 @@ const projects = {
   7: {
     title: 'Personal Expense Tracker',
     subtitle: 'Track your income and expenses',
-    img: './img/FinTracker-snapshot.png',
+    img: finTrackerImg,
     description: `
       <p>A Next.js + TypeScript + Tailwind CSS app to manage personal finances. 
       Features a dashboard with summary cards, expense charts, transaction table, 
@@ -97,7 +106,7 @@ const projects = {
   8: {
     title: 'Cloudflare OpenAI API (Demo)',
     subtitle: 'Integration with OpenAI via Cloudflare Workers',
-    img: './img/cloudflare-openai-api-snapshot.png',
+    img: cloudflareImg,
     description: `
       <p>Attempted to connect a frontend web app to OpenAI using Cloudflare Workers.
       Demo currently shows frontend interface only due to API cost limitations.</p>
