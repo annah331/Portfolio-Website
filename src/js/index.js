@@ -1,11 +1,11 @@
-import surveyFormImg from './src/survey-form-snapshot.png';
-import taxCalculatorImg from './src/personal-tax-calculator-snapshot.png';
-import techDocImg from './src/technical-documentation-snapshot.png';
-import dashboardImg from './src/dashboard-snapshot.png';
-import tenziesImg from './src/portfolio-05.jpg';
-import assemblyImg from './src/portfolio-06.jpg';
-import finTrackerImg from './src/FinTracker-snapshot.png';
-import cloudflareImg from './src/cloudflare-openai-api-snapshot.png';
+import surveyFormImg from '../assets/survey-form-snapshot.png';
+import taxCalculatorImg from '../assets/personal-tax-calculator-snapshot.png';
+import techDocImg from '../assets/technical-documentation-snapshot.png';
+import dashboardImg from '../assets/dashboard-snapshot.png';
+import tenziesImg from '../assets/tenzies-snapshot.png';
+import assemblyImg from '../assets/assembly-snapshot.png';
+import finTrackerImg from '../assets/FinTracker-snapshot.png';
+import cloudflareImg from '../assets/cloudflare-openai-api-snapshot.png';
 
 console.log('URL PARAMS:', window.location.search);
 // Navigation toggle
