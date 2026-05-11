@@ -71,18 +71,18 @@ const projects = {
   },
   5: {
     title: 'Tenzies Game',
-    subtitle: 'Fun dice game built in JavaScript',
+    subtitle: 'Fun dice game built in React',
     img: tenziesImg,
     description: `
       <p>Recreated the classic Tenzies game with dice-rolling logic, state
-      management, and a clean, responsive design.</p>
+      management, and a clean, responsive design built with HTML, CSS, JavaScript and React.</p>
     `,
     github: 'https://github.com/annah331/Tenzies-Game-',
     live: 'https://tenzies-game05.netlify.app/',
   },
   6: {
     title: 'Assembly Endgame',
-    subtitle: 'Small web game built with JavaScript',
+    subtitle: 'Small web game built with React',
     img: assemblyImg,
     description: `
       <p>Built a simple interactive web game inspired by classic puzzles,
