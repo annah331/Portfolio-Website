@@ -71,7 +71,7 @@ const projects = {
   },
   5: {
     title: 'Tenzies Game',
-    subtitle: 'Fun dice game built in React',
+    subtitle: 'Fun dice game built with React',
     img: tenziesImg,
     description: `
       <p>Recreated the classic Tenzies game with dice-rolling logic, state
